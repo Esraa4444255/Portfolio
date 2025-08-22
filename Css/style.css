@@ -11,9 +11,8 @@ body {
   color: #ff6f61 !important;
 }
 
-/* Hero */
 .hero {
-  background: url('Images\download (5).jfif') center/cover no-repeat;
+background: url("../Images/download\ \(5\).jfif") center/cover no-repeat;
   height: 90vh;
   color: white;
   position: relative;
@@ -36,7 +35,7 @@ body {
   animation: fadeIn 2s ease-in-out;
 }
 
-/* Animations */
+
 @keyframes fadeInDown {
   0% {opacity:0; transform: translateY(-50px);}
   100% {opacity:1; transform: translateY(0);}
@@ -50,7 +49,7 @@ body {
   100% {opacity:1;}
 }
 
-/* Project Cards */
+
 .project-card img {
   height: 250px;
   object-fit: cover;
