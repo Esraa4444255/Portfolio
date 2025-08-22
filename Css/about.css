@@ -1,13 +1,24 @@
 body {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  margin: 0;
-  padding: 0;
-  scroll-behavior: smooth;
+  font-family: 'Segoe UI', sans-serif;
+  background: #f5f5f5;
+  overflow-x: hidden;
 }
 
-.navbar-dark .nav-link.active {
-  color: #ffc107;
+
+.navbar-brand {
+  font-weight: bold;
+  font-size: 1.5rem;
+  color: #ff6f61 !important;
 }
+
+.hero {
+background: url("../Images/download\ \(5\).jfif") center/cover no-repeat;
+  height: 90vh;
+  color: white;
+  position: relative;
+  text-align: center;
+}
+
 
 #about-hero {
   height: 60vh;
@@ -23,12 +34,25 @@ body {
 
 section { padding: 60px 0; }
 
-footer a { color: #ffc107; margin: 0 5px; transition: color 0.3s; }
-footer a:hover { color: #fff; }
+.contact-links {
+  margin-top: 20px;
+}
 
-.animate { opacity: 0; transform: translateY(20px); transition: all 0.6s ease-out; }
-.animate.visible { opacity: 1; transform: translateY(0); }
+.btn-social {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  margin: 0 10px;
+  border-radius: 50%;
+  font-size: 22px;
+  color: white;
+  transition: transform 0.3s ease, background 0.3s ease;
+  text-align: center;
+}
 
-@media (max-width: 768px) {
-  #about-hero h1 { font-size: 2rem; }
+footer a {
+  color: #fff;
+  margin: 0 10px;
+  text-decoration: none;
 }
